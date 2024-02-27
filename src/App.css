@@ -1,0 +1,74 @@
+body{
+  background-image: url("../background.jpg");
+  background-size: cover;
+  font-family:cursive
+  
+ 
+}
+.App{
+
+box-shadow: 0 4px 8px 0 rgb(255, 255, 255), 0 6px 20px 0 rgb(255, 255, 255);
+font-family:cursive;
+border-radius: 25px;
+margin: 100px 30%;
+
+padding: 40px;
+text-align: center;}
+.App h2{
+  color: white;
+  
+}
+.App ul{
+  list-style: "🔥";
+}
+.App input{
+  width: 70%;
+height: 30px;
+border-radius: 10px;
+margin: 20px;
+outline: 0;
+border: 0;
+box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0);
+background-color: transparent;}
+.App input [placeholder]{
+  color: white;
+  font-family:cursive
+}
+input::placeholder {
+  color: rgb(0, 0, 0); /* Color of the placeholder text */
+  font-size: 15px;
+  padding-left: 3px;
+}
+
+.App button{
+  display: block;
+  margin: auto;
+  background-color: black;
+  width: 150px;
+  height: 30px;
+  color: white;
+  padding: 5px;
+  border: 0px;
+  border-radius: 15px;
+  font-family:cursive
+}
+.App button:hover{
+  background-color: rgba(1, 9, 77, 0.5)
+}
+.App ul li{
+  
+  word-break: break-all;
+}
+.difstyle{
+  list-style: "☑️";
+}
+.div10{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+.difstyle2{
+  list-style: "🕒";
+}
